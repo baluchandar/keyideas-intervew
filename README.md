@@ -12,12 +12,16 @@
 
 2. How to Run the Project
 - Run the command "composer install"
+- Create a database in phpmyadmin "wedding_catalog_db" with the user name "root" without password
 - Open the terminal and run "php artisan migrate" //it will create the required db tables
 - Run "php artisan db:seed" //It will create an admin user you can see the password in - database\seeders\AdminUserSeeder.php 
 - Run php artisan serve // it will run the app in http://127.0.0.1:8000
 - Goto login page http://127.0.0.1:8000/login - use the admin credentials
 - In dashboard page we can import the products from the CSV file.
 - Once the products imported we can see them in home page http://127.0.0.1:8000
+
+3. You can watch the Explaination video here
+   - https://drive.google.com/file/d/1vLUesBUT-rG1UffDIEcO4qhZdfv1UlJc/view
 
 ## Thank you
 
